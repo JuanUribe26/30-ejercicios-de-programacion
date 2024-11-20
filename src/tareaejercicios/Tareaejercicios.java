@@ -217,22 +217,22 @@ public class Tareaejercicios {
         //scanner.close();
         
         
-        //for (int num = 2; num <= 50; num++) { 
-            //boolean esPrimo = true;
+        for (int num = 2; num <= 50; num++) { 
+            boolean esPrimo = true;
 
-            //for (int divisor = 2; divisor <= Math.sqrt(num); divisor++) {
-                //if (num % divisor == 0) {
-                    //esPrimo = false;
-                    //break;
-                //}
-            //}
-            //if (esPrimo) {
-                //System.out.println(num + " es primo.");
-            //}
-        //}
+            for (int divisor = 2; divisor <= Math.sqrt(num); divisor++) {
+                if (num % divisor == 0) {
+                    esPrimo = false;
+                    break;
+                }
+            }
+            if (esPrimo) {
+                System.out.println(num + " es primo.");
+            }
+        }
         
-    //}
-    //}
+    }
+    }
 
 
     
